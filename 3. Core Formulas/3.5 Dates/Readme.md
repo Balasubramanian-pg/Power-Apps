@@ -1,5 +1,3 @@
-Of course. Here are the comprehensive, detailed study notes on the Power Fx date and time functions, following all specified formatting, content guidelines, and the extensive word count requirement.
-
 # Comprehensive Study Notes: Power Fx Date and Time Functions
 
 ## Introduction to Date and Time in Power Fx
