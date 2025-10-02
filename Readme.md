@@ -30,8 +30,6 @@
 - `Location`: Device GPS data (e.g., `Location.Latitude`).
 - `Param()`: URL parameters (e.g., `Param("id")`).
 
----
-
 ### **3. Data Sources & Connectors**
 **Common Connectors**:
 | Connector | Use Case |
