@@ -1,7 +1,3 @@
-Here’s a **comprehensive Power Apps cheat sheet** covering all key topics in a quick-reference format:
-
----
-
 ### **1. Power Apps Basics**
 **Types of Apps**:
 - **Canvas Apps**: Start from scratch, full UI control (use for custom designs).
