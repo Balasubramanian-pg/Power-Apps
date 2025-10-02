@@ -13,8 +13,6 @@
 | **Formulas** | Excel-like expressions (e.g., `Filter()`, `Search()`, `Patch()`). |
 | **Variables** | Store temporary data (`Set(varName, value)`; `UpdateContext({varName: value})`). |
 
----
-
 ### **2. Core Formulas**
 **Essential Functions**:
 | Category | Functions | Example |
@@ -50,8 +48,6 @@
 - **Non-Delegable**: `IsBlank`, `Left`, `Right` (may fail with >500 records).
 - **Workaround**: Use `Collections` or Dataverse for non-delegable ops.
 
----
-
 ### **4. Controls & UI**
 **Key Controls**:
 | Control | Purpose | Example Property |
@@ -69,8 +65,6 @@
 - **Containers**: Group controls for consistent layout.
 - **Theming**: Apply corporate colors/fonts via `Theme` property.
 
----
-
 ### **5. Model-Driven Apps**
 **Key Concepts**:
 - **Site Map**: Navigation structure (edit in [App Designer](https://make.powerapps.com)).
@@ -83,8 +77,6 @@
 - **Command Bar**: Add buttons for actions (e.g., "Approve").
 - **Dashboards**: Combine charts, lists, and visuals.
 - **Security Roles**: Control access via Azure AD/RBAC.
-
----
 
 ### **6. Advanced Topics**
 **Performance Optimization**:
@@ -112,8 +104,6 @@ IfError(
 )
 ```
 
----
-
 ### **7. Testing & Debugging**
 **Tools**:
 - **Monitor**: Real-time formula evaluation (`View` > `Monitor`).
@@ -127,8 +117,6 @@ IfError(
 | Slow loading | Reduce controls, optimize data calls. |
 | Formula errors | Check `Monitor` for syntax. |
 | Permission errors | Verify data source access (Azure AD). |
-
----
 
 ### **8. Deployment & ALM**
 **Solutions**:
@@ -147,8 +135,6 @@ IfError(
 - **Production**: Locked down, user-facing.
 - **Sandbox**: Testing before prod.
 
----
-
 ### **9. Security**
 **Data Security**:
 - **Dataverse**: Use **Row-Level Security (RLS)** and **Column-Level Security**.
@@ -159,8 +145,6 @@ IfError(
 - **Share Apps**: Assign users/groups via `Share` button.
 - **Embed in Teams/SharePoint**: Control access via parent platform.
 
----
-
 ### **10. Power Apps CLI (Command Line)**
 | Command | Purpose |
 |---------|---------|
@@ -169,8 +153,6 @@ IfError(
 | `pac solution add-reference` | Add components to solution. |
 | `pac solution pack` | Package solution for deployment. |
 | `pac solution publish` | Publish to an environment. |
-
----
 
 ### **11. Quick Tips**
 - **Keyboard Shortcuts**:
@@ -181,7 +163,6 @@ IfError(
 - **Reuse Components**: Save as **Custom Components** (library).
 - **Templates**: Start from templates (e.g., "Employee Onboarding").
 
----
 ### **12. Resources**
 - **Docs**: [Microsoft Learn (Power Apps)](https://learn.microsoft.com/en-us/power-apps/)
 - **Community**: [Power Users Forum](https://powerusers.microsoft.com/)
@@ -189,5 +170,4 @@ IfError(
   - [Power Apps Checker](https://checker.powerapps.com/) (performance analysis).
   - [XRM Toolbox](https://www.xrmtoolbox.com/) (Dataverse management).
 
----
 **Pro Tip**: Bookmark this cheat sheet and use `Ctrl+F` to jump to topics during development!
