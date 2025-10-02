@@ -1,5 +1,3 @@
-Of course. Here are the comprehensive, detailed study notes on the requested Power Fx text functions, following all specified formatting and content guidelines.
-
 # Comprehensive Study Notes: Power Fx Text Manipulation Functions
 
 ## Introduction to Text Functions in Power Fx
