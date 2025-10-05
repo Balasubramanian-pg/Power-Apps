@@ -1,7 +1,3 @@
-Here’s a curated list of **100 Power Apps questions** spanning beginner, intermediate, and advanced topics. These questions cover **canvas apps, model-driven apps, Power Automate integration, data sources, formulas, and best practices**.
-
----
-
 ### **Beginner Level (1-30)**
 #### **Basics & UI**
 1. What is Power Apps, and what are its primary use cases?
@@ -38,8 +34,6 @@ Here’s a curated list of **100 Power Apps questions** spanning beginner, inter
 28. How do you validate user input in a form?
 29. What is the `DateDiff()` function, and how do you use it?
 30. How do you use `IsEmpty()` to check if a collection is empty?
-
----
 
 ### **Intermediate Level (31-70)**
 #### **Advanced UI & Controls**
@@ -89,8 +83,6 @@ Here’s a curated list of **100 Power Apps questions** spanning beginner, inter
 68. How do you use **variables** (`Set`, `UpdateContext`) efficiently?
 69. What is the **App Checker**, and how do you use it?
 70. How do you implement **caching** for better performance?
-
----
 
 ### **Advanced Level (71-100)**
 #### **Custom Connectors & APIs**
